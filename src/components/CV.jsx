@@ -40,7 +40,7 @@ function CV() {
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="text-xl font-semibold text-white">Ingeniería en Informática</h3>
               <p className="text-gray-400">Universidad Argentina de la Empresa (UADE)</p>
-              <p className="text-gray-500 text-sm">2023 - Presente</p>
+              <p className="text-gray-500 text-sm">Cursando 3er año</p>
             </div>
 
             <div className="border-l-4 border-blue-500 pl-4">
@@ -56,10 +56,21 @@ function CV() {
           <h2 className="text-3xl font-bold text-white mb-6">Experiencia Laboral</h2>
           
           <div className="space-y-8">
+
+            <div className="border-l-4 border-green-500 pl-4">
+              <h3 className="text-xl font-semibold text-white">Desarrollador Frelance</h3>
+              <p className="text-gray-400">Bruncas</p>
+              <p className="text-gray-500 text-sm mb-3">Sep 2025 - Actualidad</p>
+              <ul className="list-disc list-inside text-gray-300 space-y-1">
+                <li>Mantenimiento del Cloud Server junto al Ecommerce</li>
+                <li>Migración del sistema a un nuevo servidor dedicado para la empresa</li>
+              </ul>
+            </div>
+
             <div className="border-l-4 border-green-500 pl-4">
               <h3 className="text-xl font-semibold text-white">Tutor Académico</h3>
               <p className="text-gray-400">Clases de Apoyo</p>
-              <p className="text-gray-500 text-sm mb-3">2024 - Presente</p>
+              <p className="text-gray-500 text-sm mb-3">2024 - Actualidad</p>
               <ul className="list-disc list-inside text-gray-300 space-y-1">
                 <li>Enseñanza de programación y matemáticas a estudiantes universitarios</li>
                 <li>Desarrollo de material educativo personalizado</li>
@@ -86,15 +97,6 @@ function CV() {
               </ul>
             </div>
 
-            <div className="border-l-4 border-green-500 pl-4">
-              <h3 className="text-xl font-semibold text-white">Desarrollador Frelance</h3>
-              <p className="text-gray-400">Bruncas</p>
-              <p className="text-gray-500 text-sm mb-3">Sep 2025 - Actualidad</p>
-              <ul className="list-disc list-inside text-gray-300 space-y-1">
-                <li>Mantenimiento del Cloud Server junto al Ecommerce</li>
-                <li>Migración del sistema a un nuevo servidor dedicado para la empresa</li>
-              </ul>
-            </div>
           </div>
         </div>
 
@@ -208,6 +210,15 @@ function CV() {
           <h2 className="text-3xl font-bold text-white mb-6">Certificaciones</h2>
           
           <div className="space-y-3">
+
+            <div className="flex items-start gap-3">
+              <span className="text-blue-400 text-xl">🏆</span>
+              <div>
+                <p className="text-white font-medium">Curso de Robótica Avanzada</p>
+                <p className="text-gray-400 text-sm">Colegio Alemán | 2019</p>
+              </div>
+            </div>
+
             <div className="flex items-start gap-3">
               <span className="text-blue-400 text-xl">🏆</span>
               <div>
@@ -220,13 +231,6 @@ function CV() {
               <div>
                 <p className="text-white font-medium">Certificación de MS Access Nivel Avanzado</p>
                 <p className="text-gray-400 text-sm">UTN | 2017</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <span className="text-blue-400 text-xl">🏆</span>
-              <div>
-                <p className="text-white font-medium">Curso de Robótica Avanzada</p>
-                <p className="text-gray-400 text-sm">Colegio Alemán | 2019</p>
               </div>
             </div>
           </div>
