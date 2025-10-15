@@ -101,6 +101,7 @@ function CV() {
         </div>
 
         {/* Habilidades Técnicas */}
+        {/* Habilidades Técnicas */}
         <div className="mb-12 bg-gray-800/50 rounded-lg p-8 border border-gray-700">
           <h2 className="text-3xl font-bold text-white mb-6">Habilidades Técnicas</h2>
           
@@ -108,6 +109,15 @@ function CV() {
             <div>
               <h3 className="text-lg font-semibold text-blue-400 mb-3">Lenguajes de Programación</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">TypeScript</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">JavaScript</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Kotlin</p>
+                </div>
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
                   <p className="text-white font-medium">Python</p>
                 </div>
@@ -118,28 +128,7 @@ function CV() {
                   <p className="text-white font-medium">C / C++</p>
                 </div>
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
-                  <p className="text-white font-medium">Kotlin</p>
-                </div>
-                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
-                  <p className="text-white font-medium">JavaScript</p>
-                </div>
-                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
                   <p className="text-white font-medium">PHP</p>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-blue-400 mb-3">Desarrollo Web</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
-                  <p className="text-white font-medium">HTML5</p>
-                </div>
-                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
-                  <p className="text-white font-medium">CSS3</p>
-                </div>
-                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
-                  <p className="text-white font-medium">React</p>
                 </div>
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
                   <p className="text-white font-medium">SQL</p>
@@ -148,14 +137,52 @@ function CV() {
             </div>
 
             <div>
+              <h3 className="text-lg font-semibold text-blue-400 mb-3">Desarrollo Web</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">React</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Node.js</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Express.js</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Redux Toolkit</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">HTML5</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">CSS3</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Tailwind CSS</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Vite</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
               <h3 className="text-lg font-semibold text-blue-400 mb-3">Desarrollo Móvil</h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
                   <p className="text-white font-medium">React Native</p>
                 </div>
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Expo</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
                   <p className="text-white font-medium">Kotlin</p>
-                  <p className="text-gray-400 text-xs">En aprendizaje</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Jetpack Compose</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Android SDK</p>
                 </div>
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
                   <p className="text-white font-medium">Swift</p>
@@ -168,7 +195,19 @@ function CV() {
               <h3 className="text-lg font-semibold text-blue-400 mb-3">Bases de Datos</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
-                  <p className="text-white font-medium">SQL Server</p>
+                  <p className="text-white font-medium">PostgreSQL</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Supabase</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Redis</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Room</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Prisma ORM</p>
                 </div>
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
                   <p className="text-white font-medium">MongoDB</p>
@@ -177,7 +216,7 @@ function CV() {
                   <p className="text-white font-medium">MySQL</p>
                 </div>
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
-                  <p className="text-white font-medium">PostgreSQL</p>
+                  <p className="text-white font-medium">SQL Server</p>
                 </div>
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
                   <p className="text-white font-medium">MS Access</p>
@@ -186,7 +225,118 @@ function CV() {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold text-blue-400 mb-3">Herramientas</h3>
+              <h3 className="text-lg font-semibold text-blue-400 mb-3">APIs y Servicios en Tiempo Real</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">REST API</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">WebSocket</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Socket.IO</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">WebRTC</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">OpenAI API</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">MercadoPago</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">JWT</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-blue-400 mb-3">Herramientas y DevOps</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Git / GitHub</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Vercel</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Docker</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Gradle</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">npm / npx</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Jest</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">ESLint</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Prettier</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-blue-400 mb-3">Arquitectura y Patrones</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Clean Architecture</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">MVVM</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">MVC</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Repository Pattern</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Service Layer</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Dependency Injection</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-blue-400 mb-3">Librerías Especializadas</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Hilt / Dagger</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Material 3</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">React Query</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Axios</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">React Hook Form</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Joi / Zod</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">bcryptjs</p>
+                </div>
+                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
+                  <p className="text-white font-medium">Winston</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-blue-400 mb-3">Herramientas de Negocio</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
                   <p className="text-white font-medium">Excel Avanzado</p>
@@ -195,10 +345,7 @@ function CV() {
                   <p className="text-white font-medium">Power BI</p>
                 </div>
                 <div className="bg-gray-700/50 rounded-lg p-3 text-center">
-                  <p className="text-white font-medium">Git</p>
-                </div>
-                <div className="bg-gray-700/50 rounded-lg p-3 text-center">
-                  <p className="text-white font-medium">GitHub</p>
+                  <p className="text-white font-medium">MS Access</p>
                 </div>
               </div>
             </div>
